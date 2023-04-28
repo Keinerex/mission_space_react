@@ -1,0 +1,37 @@
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 0;
+    transition: margin 0.75s;
+    background: #282C57;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.text{
+    color: white;
+    font-family: Ubuntu;
+}
+
+.done{
+    color: #4BC049
+}
+
+.unfulfilled{
+    color: #C04950;
+}
+
+.status{
+    display: block;
+    width: fit-content;
+    margin: 0;
+    margin-block: 0;
+    margin-inline: 0;
+}
